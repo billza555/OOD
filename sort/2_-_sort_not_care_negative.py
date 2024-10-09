@@ -1,3 +1,17 @@
+'''
+ให้เรียงลำดับ input จากน้อยไปมากของจำนวนเต็มบวกและศูนย์ โดยถ้าหากเป็นจำนวนเต็มลบไม่ต้องยุ่งกับมัน
+
+****** ห้ามใช้ Built-in Function ที่เกี่ยวกับ Sort ให้น้องเขียนฟังก์ชัน Sort เอง
+
+Testcase student: #1/5 1
+Enter Input : 6 3 -2 5 -8 2 -2
+2 3 -2 5 -8 6 -2
+
+Testcase student: #2/5 2
+Enter Input : 6 5 4 -1 3 0 2 -99 1
+0 1 2 -1 3 4 5 -99 6
+'''
+
 def get_max_numbers(numbers):
     max_index = 0
     for index, number in enumerate(numbers):

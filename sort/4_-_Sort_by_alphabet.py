@@ -1,3 +1,21 @@
+'''
+ให้เรียงลำดับ input ที่รับเข้ามาจากน้อยไปมาก โดยเรียงลำดับจากตัวอักษรที่มีอยู่ในแต่ละ string โดยตัวอักษรจะมีแค่ a - z เท่านั้น และในแต่ละ string จะมี alphabet เพียงแค่ 1 ตัวเท่านั้น
+
+****** ห้ามใช้ Built-in Function ที่เกี่ยวกับ Sort ให้น้องเขียนฟังก์ชัน Sort เอง
+
+Testcase student: #1/4 1
+Enter Input : 932c 832u32 2344b
+2344b 932c 832u32
+
+Testcase student: #2/4 2
+Enter Input : 99a 78b c2345 11d
+99a 78b c2345 11d
+
+Testcase student: #3/4 3
+Enter Input : 572z 5y5 304q2
+304q2 5y5 572z
+'''
+
 def get_alphabet(words):
     for word in words:
         if word.isalpha():
